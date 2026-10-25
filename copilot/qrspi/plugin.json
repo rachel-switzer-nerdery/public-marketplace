@@ -1,0 +1,22 @@
+{
+  "name": "qrspi",
+  "version": "1.0.0",
+  "description": "Question, Research, Design, Structure, Plan, Worktree, Implement, PR: an 8-phase workflow that keeps each step in its own context with a markdown artifact between phases.",
+  "author": {
+    "name": "Matan Shavit"
+  },
+  "homepage": "https://github.com/matanshavit/qrspi",
+  "repository": "https://github.com/rachel-switzer-nerdery/public-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "question",
+    "research",
+    "design",
+    "structure",
+    "plan",
+    "implement",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

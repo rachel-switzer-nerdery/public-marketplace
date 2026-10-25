@@ -1,0 +1,21 @@
+{
+  "name": "rpi",
+  "version": "1.0.0",
+  "description": "Research a change, work through its design, and implement it with reviewable local documents. From HumanLayer.",
+  "author": {
+    "name": "HumanLayer",
+    "email": "support@humanlayer.dev"
+  },
+  "homepage": "https://github.com/humanlayer/skills/tree/main/plugins/rpi",
+  "repository": "https://github.com/rachel-switzer-nerdery/public-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "design",
+    "implementation",
+    "workflow",
+    "humanlayer"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

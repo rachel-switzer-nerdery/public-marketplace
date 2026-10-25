@@ -1,0 +1,40 @@
+{
+  "name": "public-marketplace",
+  "owner": {
+    "name": "rachel-switzer-nerdery"
+  },
+  "metadata": {
+    "description": "RPI and QRSPI coding-agent workflows for GitHub Copilot.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rpi",
+      "source": "./copilot/rpi",
+      "description": "Research a change, work through its design, and implement it with reviewable local documents. From HumanLayer.",
+      "version": "1.0.0",
+      "keywords": [
+        "research",
+        "design",
+        "implementation",
+        "workflow",
+        "humanlayer"
+      ]
+    },
+    {
+      "name": "qrspi",
+      "source": "./copilot/qrspi",
+      "description": "Question, Research, Design, Structure, Plan, Worktree, Implement, PR: an 8-phase workflow that keeps each step in its own context with a markdown artifact between phases.",
+      "version": "1.0.0",
+      "keywords": [
+        "question",
+        "research",
+        "design",
+        "structure",
+        "plan",
+        "implement",
+        "workflow"
+      ]
+    }
+  ]
+}

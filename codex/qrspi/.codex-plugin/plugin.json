@@ -1,0 +1,39 @@
+{
+  "name": "qrspi",
+  "version": "1.0.0",
+  "description": "Question, Research, Design, Structure, Plan, Worktree, Implement, PR: an 8-phase workflow that keeps each step in its own context with a markdown artifact between phases.",
+  "author": {
+    "name": "Matan Shavit"
+  },
+  "homepage": "https://github.com/matanshavit/qrspi",
+  "repository": "https://github.com/rachel-switzer-nerdery/public-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "question",
+    "research",
+    "design",
+    "structure",
+    "plan",
+    "implement",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "QRSPI",
+    "shortDescription": "Question, research, design, plan, implement",
+    "longDescription": "Question, Research, Design, Structure, Plan, Worktree, Implement, PR: an 8-phase workflow that keeps each step in its own context with a markdown artifact between phases.",
+    "developerName": "Matan Shavit",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/matanshavit/qrspi",
+    "defaultPrompt": [
+      "$qrspi-1-question Add rate limiting to the API endpoints",
+      "$qrspi-3-design thoughts/qrspi/<id>/",
+      "$qrspi-7-implement thoughts/qrspi/<id>/"
+    ]
+  }
+}

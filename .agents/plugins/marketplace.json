@@ -1,0 +1,32 @@
+{
+  "name": "public-marketplace",
+  "interface": {
+    "displayName": "RPI and QRSPI workflows"
+  },
+  "plugins": [
+    {
+      "name": "rpi",
+      "source": {
+        "source": "local",
+        "path": "./codex/rpi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "qrspi",
+      "source": {
+        "source": "local",
+        "path": "./codex/qrspi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

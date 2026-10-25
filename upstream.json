@@ -1,0 +1,12 @@
+{
+  "rpi": {
+    "repo": "https://github.com/humanlayer/skills",
+    "ref": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+    "path": "plugins/rpi"
+  },
+  "qrspi": {
+    "repo": "https://github.com/matanshavit/qrspi",
+    "ref": "8d710510643ab483708fd127bd7c9b4ca2951f48",
+    "path": ".claude"
+  }
+}
